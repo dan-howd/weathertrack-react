@@ -5,6 +5,7 @@ To be used along with [Weather Track Backend](https://github.com/jminterwebs/wea
 To run app
 
 1. Clone down repo
-2. Run yarn install
-3. Yarn start. Make sure [Weather Track Backend](https://github.com/jminterwebs/weathertracker-backend)
+2. in the applications directory run the below in terminal
+3. Run `yarn install`
+4. run `yarn start`. Make sure [Weather Track Backend](https://github.com/jminterwebs/weathertracker-backend)
    is running as well.

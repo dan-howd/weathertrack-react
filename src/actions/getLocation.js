@@ -5,7 +5,7 @@ const fetchLocationsData = () => {
     dispatch({ type: 'LOADING_LOCATIONS' });
 
     return axios
-      .get(`${process.env.REACT_APP_ROOT}/locations`)
+      .get(`${process.env.REACT_APP_ROOT}/locationss`)
       .then(res => {
         return res.data;
       })

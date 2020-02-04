@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -13,10 +14,9 @@ class Location extends Component {
   }
 
   render() {
-    const { props } = this.props;
     return (
       <div>
-        <Weather locations={props.locations} />
+        <Weather locations={this.props.locations} />
       </div>
     );
   }
